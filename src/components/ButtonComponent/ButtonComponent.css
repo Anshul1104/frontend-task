@@ -1,0 +1,31 @@
+.btn {
+    border-radius: 6px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0;
+    width: 100%;
+    position: relative;
+}
+
+.btn.secondary {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+    padding: 0;
+    padding-bottom: 7px;
+    color: #fff;
+    font-size: 36px;
+}
+
+.btn.secondary:hover::before {
+    content: 'Add Product';
+    position: absolute;
+    top: -50px;
+    left: 0;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.add_product_section {
+    width: 50%;
+    margin: 50px auto;
+}
+
+@media (max-width: 1200px) {
+    .add_product_section {
+        width: 100%;
+    }
+}

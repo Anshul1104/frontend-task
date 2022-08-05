@@ -1,0 +1,13 @@
+.products_section {
+    margin: 20px 100px;
+}
+
+.product_box {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 640px) {
+    .products_section {
+        margin: 20px auto;
+    }
+}
